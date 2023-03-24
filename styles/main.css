@@ -130,6 +130,11 @@ p {
     transform: none;
     visibility: visible;
   }
+
+.sub_header {
+  color:white;
+  font-size: 20px;
+}
   
 /* CONTACT CSS */
 .banner {
@@ -138,4 +143,9 @@ p {
   height: 25vh;
   background-size: cover;
   background-position: top;
+}
+
+.logo-container > img {
+  margin: 1vh;
+  height: 23vh;
 }
