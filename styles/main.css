@@ -137,14 +137,15 @@ p {
   width: 100%;
   height: 25vh;
   background-size: cover;
-<<<<<<< HEAD
-  background-position: 15px;
-=======
   background-position: top;
 }
 
 .logo-container > img {
   margin: 1vh;
   height: 23vh;
->>>>>>> 94cd0cf9589993b290bc6a34d94be78311002e41
+}
+
+h4 {
+    text-align: center;
+    font-size: 50px;
 }
