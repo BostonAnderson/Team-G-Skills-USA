@@ -1,8 +1,6 @@
 :root {
-    /* Base font size */
     font-size: 10px;
 
-    /* Full grid area variable */
     --fullGrid: 1 / 1 / -1 / -1;
 }
 
@@ -12,7 +10,6 @@ body {
 }
 
 header {
-    /* Create grid spanning viewport width & height */
     display: grid;
     grid-template-rows: 100vh;
     overflow: hidden;
@@ -20,15 +17,10 @@ header {
 }
 
 .video-bg {
-    /* Span the full grid */
     grid-area: var(--fullGrid);
-
-    /* Re-size video to cover full screen while maintaining aspect ratio */
     min-width: 100%;
     min-height: 100%;
     object-fit: cover;
-
-    /* Display video below overlay */
     z-index: -1;
 }
 
@@ -37,16 +29,11 @@ header {
 }
 
 .video-overlay {
-    /* Span the full grid */
     grid-area: var(--fullGrid);
-
-    /* Center Content */
     display: grid;
     justify-content: center;
     align-content: center;
     text-align: center;
-
-    /* Semi-transparent background */
     background-color: rgba(0, 0, 0, 0.55);
 }
 
