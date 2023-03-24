@@ -10,7 +10,7 @@ body {
     margin: 0px;
 }
 
-a > header {
+header {
     display: grid;
     grid-template-rows: 100vh;
     overflow: hidden;
@@ -131,21 +131,20 @@ p {
     visibility: visible;
   }
 
-.sub_header {
-  color:white;
-  font-size: 20px;
-}
-  
 /* CONTACT CSS */
 .banner {
-  background-image: url("/media/images/symbols-of-law-scale-hammer-and-themis-2022-12-16-11-04-37-utc.jpg");
+  background-image: url("/media/images/business-people-and-lawyers-discussing-contract-pa-2022-09-06-04-31-46-utc.jpg");
   width: 100%;
   height: 25vh;
   background-size: cover;
-  background-position: ;
+<<<<<<< HEAD
+  background-position: 15px;
+=======
+  background-position: top;
 }
 
 .logo-container > img {
   margin: 1vh;
   height: 23vh;
+>>>>>>> 94cd0cf9589993b290bc6a34d94be78311002e41
 }
